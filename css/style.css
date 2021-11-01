@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(166, 222, 255);
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.title {
+    background-color: rgb(255, 248, 157);
+    
+    text-align: center;
+    
+    width: 100%;
+}
+
+/* Flex */
+
+.container {
+    align-content: center;
+    display: flex;
+    gap: 54px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item {
+    order: 5;
+    
+    height: 250px;
+    width: 250px;
+    
+    object-fit: cover;
+}
+
+/* Botón */
+
+.item-boton {
+    position: relative;
+}
+
+.boton {
+    position: absolute;
+
+    left: 20%;
+    bottom: 45%;
+}
